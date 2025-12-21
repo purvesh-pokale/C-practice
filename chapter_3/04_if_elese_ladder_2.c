@@ -9,19 +9,19 @@ int main()
     if(age>60)
     {
 
-        printf("You cna drive and your senior citizen");
+        printf("You can drive and your senior citizen");
     }
-    else if (age>40)
+    else if (age>=30)
     {
-        printf("You cna drive and your are elder");
+        printf("You can drive and your are elder");
     }
-    else if (age>20)
+    else if (age>=20 && age<=29)
     {
-        printf("You cna drive and your are in a 20es");
+        printf("You can drive and your are in a 20es");
     }
     else if (age>18)
     {
-        printf("You cna drive ");
+        printf("You can drive ");
     }
     else 
     {
